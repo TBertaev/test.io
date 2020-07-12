@@ -382,9 +382,11 @@
     height: 100%;
     max-height: 300px;
 }
+
 .about-disease .reportage-text {
     max-height: 100%;
 }
+
 .disease .devinder {
     width: 15px;
     max-height: 100%;
@@ -655,6 +657,20 @@ footer a:hover {
 
 }
 
+@media screen and (max-width: 940px) {
+    .reequisites .about-medicine {
+        font-size: 18px;
+    }
+
+    .header-content .header-text p {
+        font-size: 20px;
+    }
+
+    .about-disease .reportage-text {
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 765px) {
     .reequisites h3 {
         text-align: center;
@@ -676,6 +692,7 @@ footer a:hover {
         padding-top: 20px;
         padding-right: 0 !important;
     }
+
     .reequisites .reequisite {
         font-size: 22px;
         width: 80%;
@@ -828,6 +845,8 @@ footer a:hover {
 
     .about-disease .reportage-text {
         font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
 
     .about-reporter {
@@ -912,15 +931,16 @@ footer a:hover {
         width: 1920px;
     }
 
-    .header-text p {
+    .header-content  .header-text p {
         width: 100%;
         padding: 0;
         text-align: center;
-        font-size: 18px;
+        line-height: 30px;
+        font-size: 17px;
     }
 
     .header-text .dedicated-text {
-        font-size: 30px !important;
+        font-size: 25px !important;
         font-weight: 800;
     }
 
@@ -933,8 +953,9 @@ footer a:hover {
         height: 50px;
         width: 100%;
     }
-    
+
 }
+
 
 @media screen and (max-width: 576px) {
     .about-reporter {
@@ -964,6 +985,7 @@ footer a:hover {
         line-height: 140%;
         font-weight: normal;
     }
+
     .about-reporter .picture {
         width: 80px !important;
         height: 96px !important;
@@ -981,7 +1003,7 @@ footer a:hover {
 
     .header-navbar {
         width: 100%;
-        padding: 0 0 0 20px !important    
+        padding: 0 0 0 20px !important
     }
 
     .header-navbar .navbar-text {
@@ -994,33 +1016,27 @@ footer a:hover {
         height: 100%;
         justify-content: inherit;
     }
+
     .about-disease .reportage-text {
         margin-top: 20px;
         font-size: 15px;
     }
+
     .about-disease .reportage-text p {
         padding-right: 10px;
     }
+
     .reequisites .about-medicine {
         font-size: 16px;
     }
 }
+
 @media screen and (max-width: 450px) {
     .disease .about-disease {
         height: 700px;
     }
 }
-@media screen and (max-width: 940px) {
-    .reequisites .about-medicine {
-        font-size: 18px;
-    }
-    .header-content .header-text p{
-        font-size: 20px;
-    }
-    .about-disease .reportage-text {
-        font-size: 15px;
-    }
-}
+
 @media screen and (max-width: 1210px) {
     .header-content .header-text .btn-help {
         font-size: 20px;
@@ -1028,12 +1044,14 @@ footer a:hover {
     }
 
 }
+
 @media screen and (max-width: 260) {
     .about-disease .reportage-text p {
         font-size: 145px;
     }
 
 }
+
 @media screen and (max-width: 756) {
     .about-disease .reportage-text {
         margin-top: 20px !important;
